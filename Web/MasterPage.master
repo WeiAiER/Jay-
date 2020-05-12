@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="utf-8" xml:lang="utf-8" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<link href="Images/Main/index.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="New/style/style.css" type="text/css" />
+ <script language="javascript" type="text/javascript" src="New/style/JScript.js"></script>
+<style type="text/css">
+/*------- nav --------*/
+#nav{height:30px; background-image:url(Images/Main/line.gif); background-position: -9px 0px; width:984px;margin:auto;overflow:hidden;}
+#nav ul {margin-left:10px;height:100%;width:740px;}
+#nav li {font-size:12px;float:left;color:#fff;font-weight:bold;background:url(New/Images/Main/14.jpg) no-repeat -45px -91px;padding:0px 7px 0px 11px;line-height:30px;*line-height:32px;}
+#nav span {line-height:30px;float:right;margin-right:8px;}
+#nav span a{margin-right:10px;}
+#nav ul div {background:url(Images/Main/iconNav.gif) no-repeat center 4px; height:30px; padding:7px 0;width:50px;}
+#nav ul li a{display:block;width:50px;text-align:center;}
+#nav a:link, #nav a:visited {color:#FFF;text-decoration:none;font-size:14px;}
+    #scroll {
+    }
+    #firstr1 {
+             margin-left:10px;
+             width:450px;
+             height:265px;
+             float:left;
+    }
+    #firstr2 {
+             margin-left:auto;
+             margin-right:10px;
+             height:265px;
+             width:450px;
+             word-wrap:break-word
+    }
+table td {font-size:15px}
+#mess{
+    border:1px solid;
+}
+#login_click{ margin-top:32px; height:40px;}  
+#login_click a   
+{  
+    text-decoration:none;  
+    background:#005AB5;  
+    color:#f2f2f2;  
+      
+    padding: 6px 10px 6px 10px;  
+    font-size:16px;  
+    font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;  
+    font-weight:bold;  
+    border-radius:3px;  
+      
+    -webkit-transition:all linear 0.30s;  
+    -moz-transition:all linear 0.30s;  
+    transition:all linear 0.30s;  
+      
+    }  
+   #login_click a:hover { background:#385f9e; }
+   #Div1 {
+width:800px;
+height:20px;
+margin:0 auto;
+position:fixed;
+bottom:0px;
+width:100%;
+    }
+    /*#Div1 {
+   position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%); }*/
+</style>
+</head>
+<body style="background-image: url(New/Images/10.jpg); background-repeat:no-repeat ;background-size:100% 100%;background-attachment: fixed;">
+<form id="Form1" runat="server">
+<div id="main" align="left">
+
+<div><asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+    <br />
+</asp:contentplaceholder></div>
+<div>  </div>
+</div>
+</form>
+</body></html>
